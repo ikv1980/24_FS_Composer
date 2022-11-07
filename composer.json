@@ -1,0 +1,21 @@
+{
+    "name": "vendor/composer",
+    "description": "#8 - A Dependency Manager Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Konstantin Ivanov",
+            "email": "ikv1980@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/models"
+        }
+    }
+}
